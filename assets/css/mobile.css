@@ -1,0 +1,89 @@
+.layout-top > .up {
+    padding: 8px;
+}
+.layout-top .layout-top-nav,
+.layout-top > .down nav {
+    transition: .3s;
+    height: 0px;
+    max-height: 100%;
+    overflow: hidden;
+}
+.layout-top .layout-top-nav ul li,
+.layout-top > .down nav ul li {
+    display: block;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #ddd !important;
+}
+.layout-top .layout-top-nav ul li:last-child,
+.layout-top > .down nav ul li:last-child { border: none !important; }
+
+.layout > header .hero {
+    min-height: 60vh;
+}
+.layout > header .hero .hero-text {
+    width: 60%;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+}
+.layout > header .hero .hero-text p {
+    font-size: 3.5em;
+    color: #eee;
+}
+
+
+.layout-form .wrap-icon-input-mobile-full,
+.layout-form .wrap-icon-input-2 {
+    width: 100%;
+}
+.layout-form .wrap-icon-input.checkable {
+    width: 100%;
+}
+
+.layout-dashboard {
+    width: 100%;
+}
+.layout-dashboard > .left {
+    display: none;
+    width: 100%;
+}
+.layout-dashboard > .right {
+    width: 100%;
+    margin: 0;
+}
+
+.button {
+    display: block;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    padding: 10px 25px;
+}
+.button.inline {
+    display: inline-block;
+    width: auto;
+}
+
+
+.layout-form-2 textarea {
+    border: 1px solid #222;
+    width: 100%;
+    padding: 15px;
+}
+
+.add_fund {
+    display: block;
+    width: 95%;
+    margin: auto;
+    padding: 50px 10px;
+}
+.on-mobile-size {
+    width: 100%;
+}
+
+
+.client-layout {
+    max-width: 95%;
+}

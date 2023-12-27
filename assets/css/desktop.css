@@ -1,0 +1,12 @@
+.layout-top {
+    min-width: 1000px !important;
+}
+
+.layout-form .wrap-icon-input-same-desktop {
+    width: 70%;
+}
+
+.admin-dashboard {
+    height: 400px;
+    padding: 15px;
+}
