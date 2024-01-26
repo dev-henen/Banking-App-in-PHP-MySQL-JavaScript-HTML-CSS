@@ -15,7 +15,7 @@ function Login() {
     xmlHttpRequest.onreadystatechange = function() {
         if(this.readyState == 4) {
             if(this.status == 200) {
-                window.location.assign('/who_is');
+                window.location.assign('/who_is.php');
             } else if(this.status == 400) {
                 error("Wrong Username/Email/Phone or password!");
                 loading(false);
